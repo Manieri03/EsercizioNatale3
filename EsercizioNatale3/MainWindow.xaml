@@ -7,6 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button Name="btnONOFF" Content="ON" HorizontalAlignment="Left" Margin="690,25,0,0" VerticalAlignment="Top" Width="70" Height="35" FontSize="18" FontFamily="Tempus Sans ITC" Click="btnONOFF_Click"/>
+        <TextBox Name="txt1" IsEnabled="False" HorizontalAlignment="Left" Height="23" Margin="185,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txt2" IsEnabled="False"  HorizontalAlignment="Left" Height="23" Margin="185,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txt3" IsEnabled="False" HorizontalAlignment="Left" Height="23" Margin="185,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txt4" IsEnabled="False" HorizontalAlignment="Left" Height="23" Margin="500,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txt5" IsEnabled="False" HorizontalAlignment="Left" Height="23" Margin="500,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="txt6" IsEnabled="False" HorizontalAlignment="Left" Height="23" Margin="500,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Name="btncalcola" IsEnabled="False" Content="Calcola" HorizontalAlignment="Left" Height="35" Margin="350,295,0,0" VerticalAlignment="Top" Width="105" FontFamily="Tempus Sans ITC" FontSize="18" Click="btncalcola_Click"/>
+        <Label Content="PARI O DISPARI?" HorizontalAlignment="Left" Height="35" Margin="315,26,0,0" VerticalAlignment="Top" Width="170" FontFamily="Tempus Sans ITC" FontSize="20"/>
+        <Label Name="lblris" HorizontalAlignment="Left" Height="35" Margin="250,350,0,0" VerticalAlignment="Top" Width="310" FontFamily="Tempus Sans ITC" FontSize="14"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="4" Margin="0,81,0,0" Stroke="Black" VerticalAlignment="Top" Width="792"/>
+
     </Grid>
 </Window>
